@@ -1,0 +1,15 @@
+name: Run Shell commands
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  run_shell_command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a string
+        run: echo "DevSecOps in progress."
