@@ -45,3 +45,10 @@
 * Infrastructure Scanning Tools -Chef Inspec(compliance), Nessus
 * Cloud Security Tools - AWS Security Hub, AZURE Defeneder.
 
+## Snyk
+
+* Snyk is an organisation that develops security tools(SaaS) to secure :
+  * Source Code
+  * Open Source/Third Party Libraries
+  * Containers
+  * Infra as Code
